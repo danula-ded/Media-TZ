@@ -1,0 +1,66 @@
+:root{
+    --color_main-bleak: #0077ff;
+    --color_main: #458CDE;
+    --color_aczent: #9DDADD;
+    --color_wite: #A8BBD9;
+    overflow-x: hidden;
+}
+section{
+    padding: 100px 0;
+}
+.header{
+    border-bottom: 1px --co;
+}
+
+.btn-outline-success{
+    color: var(--color_main)
+}
+
+.pageStart{
+    display: flex;
+    height: 100dvh;
+    background-image: url(/медиа/images/1379633194_orel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+.slogan{
+    background-color: RGB(157,218,221, 0.7);
+    border: 2px solid var(--color_main);
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 2px var(--color_wite) 3px;
+}
+.text-slogan{
+    color: var(--color_main-bleak);
+}
+.title{
+    color: var(--color_main-bleak);
+    opacity: 100%;
+}
+
+.osobenosti{
+    background: linear-gradient(var(--color_aczent), var(--color_wite));
+}
+.vibor{
+   background: linear-gradient(var(--color_wite), var(--color_aczent)); 
+}
+.consult{
+    background: linear-gradient(var(--color_aczent), var(--color_wite)); 
+}
+.preimushistva{
+    background: linear-gradient(var(--color_wite), var(--color_main)); 
+}
+.otzivi{
+    background: linear-gradient(var(--color_main), var(--color_main-bleak)); 
+}
+
+.my_card{
+    height: 100vh;
+}
+
+.final{
+    
+}
+/* для фильтра */
