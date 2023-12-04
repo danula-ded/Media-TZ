@@ -16,7 +16,7 @@ section{
     color: var(--color_main)
 }
 
-.pageStart{
+#pageStart{
     display: flex;
     height: 100dvh;
     background-image: url(/медиа/images/1379633194_orel.jpg);
@@ -40,27 +40,33 @@ section{
     opacity: 100%;
 }
 
-.osobenosti{
+#osobenosti{
     background: linear-gradient(var(--color_aczent), var(--color_wite));
 }
-.vibor{
+#vibor{
    background: linear-gradient(var(--color_wite), var(--color_aczent)); 
 }
-.consult{
+#consult{
     background: linear-gradient(var(--color_aczent), var(--color_wite)); 
 }
-.preimushistva{
+#preimushistva{
     background: linear-gradient(var(--color_wite), var(--color_main)); 
 }
-.otzivi{
+#otzivi{
     background: linear-gradient(var(--color_main), var(--color_main-bleak)); 
+    height: auto;
 }
 
-.my_card{
-    height: 100vh;
+#final{
+    background: linear-gradient(var(--color_main-bleak), #414141);
 }
 
-.final{
-    
+#footer{
+    background: linear-gradient(#414141, #1f1f1f);
 }
+
+.card{
+    height: 87vh;
+}
+
 /* для фильтра */
