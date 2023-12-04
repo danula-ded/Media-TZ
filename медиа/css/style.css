@@ -8,9 +8,6 @@
 section{
     padding: 100px 0;
 }
-.header{
-    border-bottom: 1px --co;
-}
 
 .btn-outline-success{
     color: var(--color_main)
