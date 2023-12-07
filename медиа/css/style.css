@@ -16,7 +16,7 @@ section{
 #pageStart{
     display: flex;
     height: 100dvh;
-    background-image: url(/медиа/images/1379633194_orel.jpg);
+    background-image: url(images/1379633194_orel.jpg);
     background-position: center;
     background-repeat: no-repeat;
     justify-content: center;
