@@ -1,69 +1,71 @@
-:root{
-    --color_main-bleak: #0077ff;
-    --color_main: #458CDE;
-    --color_aczent: #9DDADD;
-    --color_wite: #A8BBD9;
-    overflow-x: hidden;
+:root {
+  --color_main-bleak: #0077ff;
+  --color_main: #458cde;
+  --color_aczent: #9ddadd;
+  --color_wite: #a8bbd9;
+  overflow-x: hidden;
 }
-section{
-    padding: 100px 0;
+section {
+  padding: 100px 0;
 }
-
-.btn-outline-success{
-    color: var(--color_main)
+.logo {
+  height: 54px;
 }
-
-#pageStart{
-    display: flex;
-    height: 100dvh;
-    background-image: url(images/1379633194_orel.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    justify-content: center;
-    align-items: center;
-}
-.slogan{
-    background-color: RGB(157,218,221, 0.7);
-    border: 2px solid var(--color_main);
-    border-radius: 16px;
-    padding: 32px;
-    box-shadow: 2px var(--color_wite) 3px;
-}
-.text-slogan{
-    color: var(--color_main-bleak);
-}
-.title{
-    color: var(--color_main-bleak);
-    opacity: 100%;
+.btn-outline-success {
+  color: var(--color_main);
 }
 
-#osobenosti{
-    background: linear-gradient(var(--color_aczent), var(--color_wite));
+#pageStart {
+  display: flex;
+  height: 100dvh;
+  background-image: url(/медиа/images/1379633194_orel.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
 }
-#vibor{
-   background: linear-gradient(var(--color_wite), var(--color_aczent)); 
+.slogan {
+  background-color: RGB(157, 218, 221, 0.7);
+  border: 2px solid var(--color_main);
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 2px var(--color_wite) 3px;
 }
-#consult{
-    background: linear-gradient(var(--color_aczent), var(--color_wite)); 
+.text-slogan {
+  color: var(--color_main-bleak);
 }
-#preimushistva{
-    background: linear-gradient(var(--color_wite), var(--color_main)); 
-}
-#otzivi{
-    background: linear-gradient(var(--color_main), var(--color_main-bleak)); 
-    height: auto;
+.title {
+  color: var(--color_main-bleak);
+  opacity: 100%;
 }
 
-#final{
-    background: linear-gradient(var(--color_main-bleak), #414141);
+#osobenosti {
+  background: linear-gradient(var(--color_aczent), var(--color_wite));
+}
+#vibor {
+  background: linear-gradient(var(--color_wite), var(--color_aczent));
+}
+#consult {
+  background: linear-gradient(var(--color_aczent), var(--color_wite));
+}
+#preimushistva {
+  background: linear-gradient(var(--color_wite), var(--color_main));
+}
+#otzivi {
+  background: linear-gradient(var(--color_main), var(--color_main-bleak));
+  height: auto;
 }
 
-#footer{
-    background: linear-gradient(#414141, #1f1f1f);
+#final {
+  background: linear-gradient(var(--color_main-bleak), #414141);
 }
 
-.card{
-    height: 87vh;
+#footer {
+  background: linear-gradient(#414141, #1f1f1f);
+}
+
+.card {
+  height: 87vh;
 }
 
 /* для фильтра */
